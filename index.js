@@ -1,12 +1,12 @@
 const container = document.querySelector(".container");
 
-const createBlock = (num) => {
+const createBlock = (item) => {
   const span = document.createElement("span");
   span.classList.add("block");
-  span.innerHTML = num;
+  span.innerHTML = item;
   container.appendChild(span);
 
-  switch (num) {
+  switch (item) {
     case "FizzBuzz":
       span.classList.add("red");
       break;
