@@ -1,6 +1,5 @@
-const container = document.querySelector(".container");
-
 const createBlock = (item) => {
+  const container = document.querySelector(".container");
   const span = document.createElement("span");
   span.classList.add("block");
   span.innerHTML = item;
